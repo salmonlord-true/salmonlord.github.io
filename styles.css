@@ -1,0 +1,214 @@
+@font-face {
+    font-family: Scrap;
+    src: url('barrels/font.ttf');
+}
+
+* {
+    font-family: Scrap;
+    font-size: large;
+}
+
+.container {
+    border-style: solid;
+    border-radius: 1px;
+    background-color: rgb(133, 133, 133);
+    border-color: rgb(37, 37, 37);
+    margin: 0px;
+}
+
+/* #main-field {
+    position: absolute;
+    margin-left: -15%;
+    top: 5%;
+    left: 50%;
+    height: 75%;
+    width: 30%;
+    justify-self: center;
+    align-self: center;
+}
+
+
+#game-field {
+    margin: 20px;
+    justify-self: center;
+    height: 64%;
+    width: 80%;
+}
+
+.box {
+    position: absolute;
+    width: 33.3%;
+    height: 33.3%;
+}
+
+#b1 {
+    top: 0px;
+    left: 0px;
+}
+
+#b2 {
+    top: 0%;
+    left: 33.3%;
+}
+
+#b3 {
+    top: 0px;
+    left: 66.6%;
+}
+
+#b4 {
+    top: 33.3%;
+    left: 0px;
+} */
+
+#main-field {
+    margin-top: 80px;
+    justify-self: center;
+    width: 500px;
+    height: 800px;
+}
+
+#game-field {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+.box {
+    width: 165px;
+    height: 165px;
+    border-style: solid;
+    border-radius: 1px;
+    background-color: rgb(165, 165, 165);
+    margin-left: 0px;
+    align-content: center;
+}
+
+#b1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#b2 {
+    position: absolute;
+    left: 0px;
+    top: 166px;
+}
+#b3 {
+    position: absolute;
+    left: 0px;
+    top: 332px;
+}
+#b4 {
+    position: absolute;
+    left: 166px;
+    top: 0px;
+}
+#b5 {
+    position: absolute;
+    left: 166px;
+    top: 166px;
+}
+#b6 {
+    position: absolute;
+    left: 166px;
+    top: 332px;
+}
+#b7 {
+    position: absolute;
+    left: 332px;
+    top: 0px;
+}
+#b8 {
+    position: absolute;
+    left: 332px;
+    top: 166px;
+}
+#b9 {
+    position: absolute;
+    left: 332px;
+    top: 332px;
+}
+
+.barrel-image {
+    width: 64.3px;
+    height: 99px;
+    margin-bottom: -15px;
+}
+
+.centered {
+    width: 80px;
+    height: 123px;
+    display: block;
+    margin: 0px;
+    margin-left: 40px;
+}
+
+#player-1-barrels {
+    background-color: rgb(243, 94, 94);
+    position: absolute;
+    margin-left: -500px;
+    width: 200px;
+    height: 500px;
+    left: 50%;
+    top: 80px;
+}
+
+#player-1-barrel-1 {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -32.1px;
+    top: 30px;
+}
+
+#player-1-barrel-2 {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -32.1px;
+    top: 180px;
+}
+
+#player-1-barrel-3 {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -32.1px;
+    top: 330px;
+}
+
+#player-2-barrel-1 {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -32.1px;
+    top: 30px;
+}
+
+#player-2-barrel-2 {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -32.1px;
+    top: 180px;
+}
+
+#player-2-barrel-3 {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -32.1px;
+    top: 330px;
+}
+
+#player-2-barrels {
+    background-color: rgb(82, 80, 255);
+    position: absolute;
+    margin-right: -500px;
+    width: 200px;
+    height: 500px;
+    right: 50%;
+    top: 80px;
+}
+

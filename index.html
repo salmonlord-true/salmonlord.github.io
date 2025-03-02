@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic Tac Merge</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class='container' id='main-field'>
+            <div id='game-field'>
+                <div class='box' id='b1' ondragover="Misc.allowDrop(event)" ondrop="Misc.drop(event, 1)">
+                    <img id="tile1barrel" class="barrel-image centered" src="barrels/Barrel_1.webp" alt="barrel 0">
+                </div>
+                <div class='box' id='b2' ondragover="Misc.allowDrop(event)" ondrop="Misc.drop(event, 2)">
+                    <img id="tile2barrel" class="barrel-image centered" src="barrels/Barrel_1.webp" alt="barrel 0">
+                </div>
+                <div class='box' id='b3' ondragover="Misc.allowDrop(event)" ondrop="Misc.drop(event, 3)">
+                    <img id="tile3barrel" class="barrel-image centered" src="barrels/Barrel_1.webp" alt="barrel 0">
+                </div>
+                <div class='box' id='b4' ondragover="Misc.allowDrop(event)" ondrop="Misc.drop(event, 4)">
+                    <img id="tile4barrel" class="barrel-image centered" src="barrels/Barrel_1.webp" alt="barrel 0">
+                </div>
+                <div class='box' id='b5' ondragover="Misc.allowDrop(event)" ondrop="Misc.drop(event, 5)">
+                    <img id="tile5barrel" class="barrel-image centered" src="barrels/Barrel_1.webp" alt="barrel 0">
+                </div>
+                <div class='box' id='b6' ondragover="Misc.allowDrop(event)" ondrop="Misc.drop(event, 6)">
+                    <img id="tile6barrel" class="barrel-image centered" src="barrels/Barrel_1.webp" alt="barrel 0">
+                </div>
+                <div class='box' id='b7' ondragover="Misc.allowDrop(event)" ondrop="Misc.drop(event, 7)">
+                    <img id="tile7barrel" class="barrel-image centered" src="barrels/Barrel_1.webp" alt="barrel 0">
+                </div>
+                <div class='box' id='b8' ondragover="Misc.allowDrop(event)" ondrop="Misc.drop(event, 8)">
+                    <img id="tile8barrel" class="barrel-image centered" src="barrels/Barrel_1.webp" alt="barrel 0">
+                </div>
+                <div class='box' id='b9' ondragover="Misc.allowDrop(event)" ondrop="Misc.drop(event, 9)">
+                    <img id="tile9barrel" class="barrel-image centered" src="barrels/Barrel_1.webp" alt="barrel 0">
+                </div>
+            </div>
+        </div>
+        <div class='container' id='player-1-barrels'>
+            <span id="player-1-barrel-1">
+                <img id="b1p1" class="barrel-image" src="barrels/Barrel_1.webp" alt="barrel 1 player 1" draggable="true" ondragstart="Misc.dragStart(event)">
+                <p id="b1p1-info">99</p>
+            </span>
+            <span id="player-1-barrel-2">
+                <img id="b2p1" class="barrel-image" src="barrels/Barrel_2.webp" alt="barrel 2 player 1" draggable="true" ondragstart="Misc.dragStart(event)">
+                <p id="b2p1-info">99</p>
+            </span>
+            <span id="player-1-barrel-3">
+                <img id="b3p1" class="barrel-image" src="barrels/Barrel_3.webp" alt="barrel 3 player 1" draggable="true" ondragstart="Misc.dragStart(event)">
+                <p id="b3p1-info">99</p>
+            </span>
+        </div>
+        <div class='container' id='player-2-barrels'>
+            <span id="player-2-barrel-1">
+                <img id="b1p2" class="barrel-image" src="barrels/Barrel_1.webp" alt="barrel 1 player 2" draggable="true" ondragstart="Misc.dragStart(event)">
+                <p id="b1p2-info">99</p>
+            </span>
+            <span id="player-2-barrel-2">
+                <img id="b2p2" class="barrel-image" src="barrels/Barrel_2.webp" alt="barrel 2 player 2" draggable="true" ondragstart="Misc.dragStart(event)">
+                <p id="b2p2-info">99</p>
+            </span>
+            <span id="player-2-barrel-3">
+                <img id="b3p2" class="barrel-image" src="barrels/Barrel_3.webp" alt="barrel 3 player 2" draggable="true" ondragstart="Misc.dragStart(event)">
+                <p id="b3p2-info">99</p>
+            </span>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
